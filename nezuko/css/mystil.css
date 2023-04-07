@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.contain {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.box {
+    background-color: black;
+
+    width: 500px;
+    height: 600px;
+    perspective: 400px;
+    border-radius: 300px 300px 300px 300px;
+    filter: drop-shadow(0 0 20px red);
+}
+
+.img0 {
+    transition: 1000ms;
+    filter: drop-shadow(0 0 15px red);
+}
+
+.btnBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: red;
+    color: aqua;
+    transition: 1000ms;
+}
+
+.btn:hover {
+    filter: drop-shadow(0 0 15px aqua);
+    transform: scale3d(1.5, 1.5, 1.5) rotate(360deg);
+    background-color: aqua;
+    color: red;
+}
+
+
+
+
+.img0:hover {
+    filter: drop-shadow(0 0 2rem aqua);
+
+    transform: translate3d(0px, 50px, 100px);
+
+
+}
