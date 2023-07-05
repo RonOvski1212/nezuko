@@ -1,6 +1,5 @@
-
-var bgcolor = "black";
+const bgcolor = "black";
 
 function myFunction() {
-    document.getElementById("dark").style.backgroundColor = bgcolor;
-  }
+  document.getElementById("dark").style.backgroundColor = bgcolor;
+}
